@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Juro Composto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="title"> Calculadora-Juro Composto </div>
+            <div class="input">
+                <label>Valor Principal:</label>
+                <input type="number" id='principal'>
+            </div>
+            <div class="input">
+                <label>Taxa de Juros (%):</label>
+                <input type="number" id='taxa'>
+            </div>
+            <div class="input">
+                <label>Número de Anos:</label>
+                <input type="number" id='anos'>
+            </div>
+            <button id='calcular'>Calcular</button>
+
+            <div class="result" id='resultado'></div>
+        </div>
+    </main>
+    <script src="./juros.js"></script>
+</body>
+</html>
